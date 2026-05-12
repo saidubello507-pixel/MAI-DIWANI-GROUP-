@@ -1,1 +1,42 @@
 
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #f4f4f9;
+   margin: 0;
+}
+
+.counter-container {
+    text-align: center;
+    background:orange;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+#display {
+    font-size: 4rem;
+    font-weight: blod;
+    margin: 1rem 0;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#increment { background-color: #001CFF; color: yellow; }
+#decrement { background-color: #6D5248; color: white; }
+#reset { background-color: #FFFF00; color: blue; }
+
+button:hover { opacity: 0.8; }
